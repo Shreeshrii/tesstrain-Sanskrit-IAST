@@ -1,21 +1,22 @@
 # tesstrain-Sanskrit-IAST
 Tesseract Traineddata for Sanskrit in Devanagari script and IAST (written in English alphabet with diacritics)
 
-## Traineddata files - Fast Integer Models (Model_CER%_LearningIteration_Training_iteration)
+## Traineddata files 
 
-- [20201017 - Replace Layer on Power8](tessdata_fast/Sanskrit-1017.traineddata)
-- [20201211 - Plus Minus on Power8 - Sanskrit_0.141_286442_2117300](tessdata_fast/Sanskrit_0.141_286442_2117300.traineddata)
-- [20201212 - From Scratch on AArch64 - San_1.104_421141_1266900](tessdata_fast/San_1.104_421141_1266900.traineddata)
+The naming convention for the files is Model_NAME_CER%_LearningIteration_TrainingIteration
 
+- `Sanskrit` MODEL_NAME was trained with START_MODEL=Devanagari on Power8 with 42862 lines of training data.
+- `San` MODEL_NAME was trained from scratch on AArch64 with 173845 lines of training data.
+- `DevaLayer` MODEL_NAME was trained by replacing top layer of START_MODEL=Devanagari on Power8.
+
+Two types of models are available.
+
+- [Fast Integer Models - faster, slightly less accurate](tessdata_fast)
+- [Best Float/Double Models - slower, can be used as START_MODEL](tessdata_best)
 
 ## Plotting of Character Error Rates
 
-MatPlotLib can be used to visualize the CER from training iterations, checkpoints, evaluation test and validation test. 
+Sample plots to visualize the CER from training iterations, checkpoints, evaluation test and validation test: 
 
-### 20201211 - Plus Minus on Power8 - scanned list included in training
-
-![20201211 - Plus Minus on Power8 -  CER Plot](plot/Sanskrit-scanned-plot_cer.png)
-
-### 20201211 - From Scratch - Validate list not included in training
-
-![20201211 - From Scratch on AArch64 - CER Plot](plot/San-validate-plot_cer.png)
+- [Sanskrit](plot/Sanskrit-scanned-plot_cer.png)
+- [San](plot/San-validate-plot_cer.png)
