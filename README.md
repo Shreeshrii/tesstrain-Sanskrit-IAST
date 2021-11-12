@@ -14,7 +14,7 @@ LSTM: network=[1,36,0,1Ct3,3,16Mp3,3Lfys64Lfx96Lrx96Lfx512O1c1][Lfx192O1c1], int
 Layer Learning Rates: :0(Input)=0.000707107, :1:0(Convolve)=0.000707107, :1:1(ConvNL)=0.000707107, :2(Maxpool)=0.000707107, :3:0(Lfys64)=0.000707107, :4(Lfx96)=0.000707107, :5:0(Lrx96)=0.000707107, :6(Lfx192)=0.000707107, :7(Output)=0.000707107
 
 ```
-- MODEL_NAME `IASTuned_0.101000_1896935_14312000` was trained by by replacing top layer of START_MODEL=IAST for 14312000 iterations (September 2021) 
+- MODEL_NAME `IASTuned_0.101000_1896935_14312000` was trained by by replacing top layer of START_MODEL=IAST for 14312000 iterations (June 2021) 
 ```
 Version string:5.0.0-alpha-20201231-477-g60d2
 17:lstm:size=435846, offset=192
@@ -25,7 +25,7 @@ LSTM: network=[1,36,0,1Ct3,3,16Mp3,3Lfys64Lfx96Lrx96Lfx512O1c1][Lfx192O1c1][Lfx1
 Layer Learning Rates: :0(Input)=1.76777e-05, :1:0(Convolve)=1.76777e-05, :1:1(ConvNL)=1.76777e-05, :2(Maxpool)=1.76777e-05, :3:0(Lfys64)=1.76777e-05, :4(Lfx96)=1.76777e-05, :5:0(Lrx96)=1.76777e-05, :6(Lfx192)=1.76777e-05, :7(Output)=1.76777e-05
 
 ```
-- MODEL_NAME `IASTuned_0.088000_1951804_15423100` was trained by by replacing top layer of START_MODEL=IAST for 15423100 iterations(June 2021)
+- MODEL_NAME `IASTuned_0.088000_1951804_15423100` was trained by by replacing top layer of START_MODEL=IAST for 15423100 iterations (Sept 2021)
 ```
 Version string:5.0.0-alpha-20201231-477-g60d2
 17:lstm:size=435846, offset=192
