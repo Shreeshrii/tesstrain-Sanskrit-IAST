@@ -3,9 +3,9 @@ ekadaṃtagaṇeśastotram
 śrīgaṇeśāya namaḥ .
 madāsuraṃ suśāntaṃ vai dṛṣṭvā viṣṇumukhāḥ surāḥ .
 
-bhrgvādayaśca munaya ekadantaṃ samāyayuḥ .. 1..
+bhrṛgvādayaśca munaya ekadantaṃ samāyayuḥ .. 1..
 
-praṇamya taṃ prapúūjyadau punastaṃ nemurādarāt .
+praṇamya taṃ prapújyādau punastaṃ nemuradarāt .
 
 tuṣṭuvurharṣasaṃyuktā ekadantaṃ gaṇeśvaram .. 2..
 
@@ -15,4 +15,4 @@ sadātmarūpaṃ sakalādi-bhūtamamāyinaṃ so'hamacintyabodham .
 
 anādi-madhyānta-vihīnamekaṃ tamekadantaṃ śaraṇaṃ vrajāmaḥ ..
 
-37
+5³
